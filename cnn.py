@@ -51,4 +51,4 @@ plt.style.use("ggplot")
 plt.figure()
 plt.plot(np.arange(0, N), history.history["loss"], label="train_loss")
 
-!unzip -uq "/content/drive/My Drive/dataset_mod.zip" -d "/content/dataset_new"
+#!unzip -uq "/content/drive/My Drive/dataset_mod.zip" -d "/content/dataset_new"
